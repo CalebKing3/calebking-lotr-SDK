@@ -8,17 +8,16 @@ Lord of the Rings SDK consists of total 6 end-points.
 
 ## Getting Started
 
+### Requirements
 For building and running the application you need:
 
-[JDK 1.8](https://www.oracle.com/java/technologies/downloads/#java8)
+* [JDK 1.8](https://www.oracle.com/java/technologies/downloads/#java8)
 
-[Maven 3](https://maven.apache.org/)
+* [Maven 3](https://maven.apache.org/)
 
-[Git CLI](https://help.github.com/articles/set-up-git)
+* [Intellij](https://www.jetbrains.com)
 
-[Intellij](https://www.jetbrains.com)
-
-## Dependencies
+### Dependencies
 
 There are 2 third-party dependencies used in the project.
 
@@ -29,13 +28,13 @@ There are 2 third-party dependencies used in the project.
 Browse the Maven [pom.xml](https://github.com/thasanli/LordOfTheRings_SDK/blob/main/pom.xml) file for details of
 libraries and versions used.
 
-### Executing program
+## Executing program
 
-## Steps:
+### Steps:
 
 On the command line
 
-	git clone https://github.com/calebking3/calebking-LordOfTheRings-SDK.git
+	git clone https://github.com/CalebKing3/calebking-lotr-SDK.git
 
 Build the project and run the tests by running
 
@@ -47,14 +46,17 @@ Install Dependencies
 mvn install
 ```
 
-Run App Locally
+Run App Locally via Command Line
 
 ```
 mvn spring-boot:run
 ```
 
-Run the [application main](/LordOfTheRings_SDK-main/src/main/java/com/lordofrings/sdk/LotrApplication.java)
-method by right clicking on it and choosing
+OR
+
+Run
+the [application main](https://github.com/CalebKing3/calebking-lotr-SDK/blob/main/src/main/java/com/lordofrings/sdk/LotrApplication.java)
+from editor by right-clicking file.
 
 	Run As -> Java Application. 
 
@@ -64,7 +66,6 @@ Once the application runs you should see something like this
 
 # Here are some endpoints you can call:
 
-> postman collection here
 
 	* GET:  http://localhost:8080/v1/lord-of-the-rings/movie/
 	* GET:  http://localhost:8080/v1/lord-of-the-rings/book/
@@ -74,18 +75,13 @@ Once the application runs you should see something like this
 	* GET:  http://localhost:8080/v1/lord-of-the-rings/book/title/{id}
 	* POST: http://localhost:8080/v1/lord-of-the-rings/movie/search
 
-If you are sending POST: http://localhost:8080/movie/search request, you should pass an HTTP request body containing the
-movie name you want to search.
+Sample POST Request: `http://localhost:8080/movie/search` request
 
-	HTTP request body : 
-	
 	{
-    "name" : "The Lord of the Rings Series"
+        "name" : "The Lord of the Rings Series"
 	}
 
-Thank you.
-
--[KingCaleb3](https://twitter.com/KingCaleb3) 
+Questions Reach Out on Twitter. -[KingCaleb3](https://twitter.com/KingCaleb3) 
 
 
 
