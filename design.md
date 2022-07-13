@@ -181,3 +181,7 @@ Response can consist of 5 root properties:
 ## Errors
 
 All errors are return as a string. Two exception are provided.
+
+## Next Steps
+I would have liked to made an interactive swagger doc to run this with a UI.
+Unit test and API test with something like Karate for e2e
