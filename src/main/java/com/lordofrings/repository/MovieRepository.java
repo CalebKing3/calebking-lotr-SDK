@@ -1,9 +1,9 @@
-package com.lordofrings.sdk.repository;
+package com.lordofrings.repository;
 
-import com.lordofrings.sdk.exception.MovieNotFoundException;
-import com.lordofrings.sdk.model.Movie;
-import com.lordofrings.sdk.model.MovieDTO;
-import com.lordofrings.sdk.model.SearchMovieDTO;
+import com.lordofrings.model.SearchMovieDTO;
+import com.lordofrings.exception.MovieNotFoundException;
+import com.lordofrings.model.Movie;
+import com.lordofrings.model.MovieDTO;
 
 /**
  * Repository to retrieve movie details about Lord of the Rings trilogy.

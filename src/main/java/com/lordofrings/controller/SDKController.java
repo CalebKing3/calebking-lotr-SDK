@@ -1,13 +1,13 @@
-package com.lordofrings.sdk.controller;
+package com.lordofrings.controller;
 
-import com.lordofrings.sdk.exception.BookNotFoundException;
-import com.lordofrings.sdk.exception.MovieNotFoundException;
-import com.lordofrings.sdk.model.BookDTO;
-import com.lordofrings.sdk.model.Movie;
-import com.lordofrings.sdk.model.MovieDTO;
-import com.lordofrings.sdk.model.SearchMovieDTO;
-import com.lordofrings.sdk.service.BookService;
-import com.lordofrings.sdk.service.MovieService;
+import com.lordofrings.model.BookDTO;
+import com.lordofrings.model.SearchMovieDTO;
+import com.lordofrings.exception.BookNotFoundException;
+import com.lordofrings.exception.MovieNotFoundException;
+import com.lordofrings.model.Movie;
+import com.lordofrings.model.MovieDTO;
+import com.lordofrings.service.BookService;
+import com.lordofrings.service.MovieService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

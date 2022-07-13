@@ -10,11 +10,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.lordofrings.sdk</groupId>
+    <groupId>Lotr-SDK</groupId>
     <artifactId>calebking-lotr-sdk</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>lotr-sdk</name>
-    <description>SDK for Lord Of Rings</description>
+    <description>SDK for Lord Of Rings - LibLab</description>
     <properties>
         <java.version>8</java.version>
         <repackage.classifier/>

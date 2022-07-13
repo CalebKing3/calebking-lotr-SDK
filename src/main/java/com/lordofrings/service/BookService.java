@@ -1,9 +1,9 @@
-package com.lordofrings.sdk.service;
+package com.lordofrings.service;
 
-import com.lordofrings.sdk.config.WebClientConnection;
-import com.lordofrings.sdk.exception.BookNotFoundException;
-import com.lordofrings.sdk.model.BookDTO;
-import com.lordofrings.sdk.repository.BookRepository;
+import com.lordofrings.config.WebClientConnection;
+import com.lordofrings.exception.BookNotFoundException;
+import com.lordofrings.model.BookDTO;
+import com.lordofrings.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClientResponseException;

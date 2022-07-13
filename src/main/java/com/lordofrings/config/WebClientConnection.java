@@ -1,6 +1,6 @@
-package com.lordofrings.sdk.config;
+package com.lordofrings.config;
 
-import com.lordofrings.sdk.constant.LotrConstants;
+import com.lordofrings.constant.LotrConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;

@@ -1,7 +1,7 @@
-package com.lordofrings.sdk.repository;
+package com.lordofrings.repository;
 
-import com.lordofrings.sdk.exception.BookNotFoundException;
-import com.lordofrings.sdk.model.BookDTO;
+import com.lordofrings.model.BookDTO;
+import com.lordofrings.exception.BookNotFoundException;
 
 /**
  * Repository to retrieve movie details about Lord of the Rings trilogy.

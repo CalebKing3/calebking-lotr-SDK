@@ -1,11 +1,11 @@
-package com.lordofrings.sdk.service;
+package com.lordofrings.service;
 
-import com.lordofrings.sdk.config.WebClientConnection;
-import com.lordofrings.sdk.exception.MovieNotFoundException;
-import com.lordofrings.sdk.model.Movie;
-import com.lordofrings.sdk.model.MovieDTO;
-import com.lordofrings.sdk.model.SearchMovieDTO;
-import com.lordofrings.sdk.repository.MovieRepository;
+import com.lordofrings.model.SearchMovieDTO;
+import com.lordofrings.repository.MovieRepository;
+import com.lordofrings.config.WebClientConnection;
+import com.lordofrings.exception.MovieNotFoundException;
+import com.lordofrings.model.Movie;
+import com.lordofrings.model.MovieDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClientResponseException;

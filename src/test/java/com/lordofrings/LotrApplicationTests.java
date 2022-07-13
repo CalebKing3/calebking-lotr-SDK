@@ -1,4 +1,4 @@
-package com.lordofrings.sdk;
+package com.lordofrings;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

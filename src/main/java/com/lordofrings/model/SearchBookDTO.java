@@ -1,4 +1,4 @@
-package com.lordofrings.sdk.model;
+package com.lordofrings.model;
 
 import lombok.Data;
 

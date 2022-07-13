@@ -1,4 +1,4 @@
-package com.lordofrings.sdk.constant;
+package com.lordofrings.constant;
 
 public class LotrConstants {
 

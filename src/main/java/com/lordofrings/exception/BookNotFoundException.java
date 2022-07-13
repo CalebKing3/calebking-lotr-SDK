@@ -1,4 +1,4 @@
-package com.lordofrings.sdk.exception;
+package com.lordofrings.exception;
 
 public class BookNotFoundException extends RuntimeException {
 

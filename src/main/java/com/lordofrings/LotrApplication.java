@@ -1,4 +1,4 @@
-package com.lordofrings.sdk;
+package com.lordofrings;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
