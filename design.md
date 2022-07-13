@@ -9,8 +9,6 @@ We use built-in HTTP features, like HTTP authentication and HTTP verbs, which ar
 
 https://the-one-api.dev/v2
 
-Lord of the Rings SDK consists of total 6 end-points.
-
 ## HTTP Verbs Supported
 
 As per RESTful design patterns, API implements following HTTP verbs:
