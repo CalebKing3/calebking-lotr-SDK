@@ -121,7 +121,7 @@ public class SDKController {
     }
 
     /**
-     * @return the longest movie by total runtime
+     * @return the book title name by searching by id
      */
     @GetMapping("/book/title/{id}")
     public ResponseEntity<String> getBookTitle(@PathVariable String id) {
