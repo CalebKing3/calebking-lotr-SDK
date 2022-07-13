@@ -9,6 +9,7 @@
         <version>2.6.4</version>
         <relativePath/>
     </parent>
+
     <groupId>com.lordofrings.sdk</groupId>
     <artifactId>calebking-lotr-sdk</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -19,6 +20,24 @@
         <repackage.classifier/>
         <spring-native.version>0.11.3</spring-native.version>
     </properties>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/calebking3/calebking-lotr-SDK</url>
+        </repository>
+    </distributionManagement>
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
