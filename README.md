@@ -2,9 +2,6 @@
 
 Springboot project demonstrating the use case of making a small SDK. We are leveraging Lord of Rings endpoint and
 providing developers additional functionality not available from the original api.
-https://the-one-api.dev/v2
-
-Lord of the Rings SDK consists of total 6 end-points.
 
 ## Getting Started
 
@@ -64,22 +61,7 @@ Once the application runs you should see something like this
 
 	2022-07-12 15:44:06.808  INFO 37045 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/v1/lord-of-the-rings'
 
-# Here are some endpoints you can call:
-
-
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/movie/
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/book/
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/movie/{id}
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/book/{id}
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/movie/longest
-	* GET:  http://localhost:8080/v1/lord-of-the-rings/book/title/{id}
-	* POST: http://localhost:8080/v1/lord-of-the-rings/movie/search
-
-Sample POST Request: `http://localhost:8080/movie/search` request
-
-	{
-        "name" : "The Lord of the Rings Series"
-	}
+Please view the [Design.md](design.md) to use the service
 
 Questions Reach Out on Twitter. -[KingCaleb3](https://twitter.com/KingCaleb3) 
 
