@@ -20,8 +20,6 @@ There are 2 third-party dependencies used in the project.
 
 * [jackson-databind](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind)
 
-* [log4j-core](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
-
 Browse the Maven [pom.xml](https://github.com/thasanli/LordOfTheRings_SDK/blob/main/pom.xml) file for details of
 libraries and versions used.
 
